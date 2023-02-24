@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Tilt+Warp&display=swap');
+html,body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: 'Tilt Warp', cursive;
+    background-color: #101820FF;
+    overflow-x: hidden;
+}
+.navBar{
+    background-color: rgb(58, 58, 58);
+    padding: 8px;
+    position: static;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 5px;
+}
+.navBar h1{
+    font-weight: bolder;
+    letter-spacing: 1.5px;
+    color: #FEE715FF;
+    margin-left:20px ;
+}
+.search-icon{
+    color: #FEE715FF;
+    background: transparent;
+    border: none;
+    font-size: 30px;
+    text-shadow: 5px 5px 20px #FEE715FF;
+}
+ .master-container{
+    background-color: #949398FF;
+    width: 90%;
+    margin: 0px auto;
+    height: 90vh;
+    overflow-y: scroll;
+    padding: 20px;
+ }
+ .input-container{
+    width: 90%;
+    background-color: #D6ED17FF;
+    margin: 0px auto;
+    padding: 20px;
+ }
+ 
+ #movie-term{
+    width: 100%;
+    padding: 4px;
+    font-size: 20px;
+    outline: none;
+ }
+
+ .field{
+    width: fit-content;
+    flex-wrap: wrap;
+    display: flex;
+    flex-direction: row;
+    margin: 0px auto;
+ }
+ .movie-list{
+    background-color: #101820FF;
+    width: 90%;
+    margin: 0px auto;
+    border-radius: 20px;
+    height: fit-content;
+    padding: 20px;
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: 33.33% 33.33% 33.33%;
+ }
+ .movie-list-card{
+   width: 80%;
+   height: 20%;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   margin: 20px;
+ }
+ .movie-list-card img{
+   width: auto;
+   height: auto;
+   object-fit: cover;
+ }
+ .movie-list-card a{
+   width: 100%;
+   color: #FEE715FF;
+   font-size: 1rem;
+   background: #949398FF;
+   padding: 6px;
+   border-radius: 10px;
+   border: none;
+   margin-top: 5px;
+   cursor: pointer;
+
+ }
+ #selected-movie{
+   margin: 50px auto;
+   width: 90%;
+   
+ }
